@@ -3,3 +3,5 @@ employ graph attention network (GAT) for compounds and CNN for proteins
 design bi-directional attention (attention of atoms to protein and amino acid to compound) neural network architecture 
 
 Finally, the integrated vector representations of compound–protein pair are fed into the classifier
+
+the training objective is to minimize the loss function (Cross-Entropy Loss in CPI prediction task and Mean Square Error in affinity prediction task)
