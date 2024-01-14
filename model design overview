@@ -5,3 +5,6 @@ design bi-directional attention (attention of atoms to protein and amino acid to
 Finally, the integrated vector representations of compound–protein pair are fed into the classifier
 
 the training objective is to minimize the loss function (Cross-Entropy Loss in CPI prediction task and Mean Square Error in affinity prediction task)
+
+The optimizer of our model is Adam
+
